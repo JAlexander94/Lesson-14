@@ -9,11 +9,9 @@ function compare(a,b){
 }
 
 const less10 = function(a){
-    let xy = [];
     for (i=0;i<a.length;i++){
-        if(a[i]<10){xy.push(true)}else{xy.push(false)}
+        if(a[i]<10){console.log(a[i],": is less than 10")}else{console.log(a[i],": is greater than or equal to 10")}
     }
-    console.log(xy);
     return
 }
 
