@@ -9,11 +9,11 @@ const subtract = function(a,b){
     return res;
 }
 
-function area(a){
+function sqarea(a){
     let res = a*a;
     return res
 }
 
 console.log(add(1,2));
 console.log(subtract(20,10));
-console.log(area(4));
+console.log(sqarea(4));
